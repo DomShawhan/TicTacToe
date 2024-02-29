@@ -7,7 +7,7 @@ namespace Proj0803TicTacToe
     {
         static void Main(string[] args)
         {
-            Game game = new Game('R', 'F');
+            Game game = new Game('X', 'O');
 
             game.Play();
         }
